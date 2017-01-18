@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/spkellydev/pen/RKGgaB.
+
+ This is my Portfolio page and man did I learn some things. For instance, I had to learn how to use GitHub to upload pictures since Imgur wasn't supported. Plus,  figuring out that I needed padding for the bootstrap nav was fun. All in all, I have to say it was a good time though its still a work in progress

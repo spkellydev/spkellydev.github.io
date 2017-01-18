@@ -1,0 +1,170 @@
+.navbar-collapse.in {
+    overflow-y: hidden;
+}body {
+  padding-top:130px;
+} 
+ header {
+  color: white;
+  font-family: Tahoma;
+overflow:hidden;
+}
+.next {
+  padding: 35px 0px;
+
+}
+.navbar-header {
+  overflow:hidden;
+}
+.siteName {
+  padding: 15px 0px 0px 40px;
+
+}
+.nav {
+  background-color: #0072c6;
+  font-size: 25px;
+  font-weight:bold;
+  border-bottom: 3px white solid;
+  opacity: 0.75;
+  border: 0px;
+  border-radius: 0px;
+  padding: 10px;
+
+}
+
+nav a {
+  color:white;
+
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+
+}
+a:visited {
+  color: black;
+
+}
+#nav ul {
+  padding-top: 15px;
+  list-style-type: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 100;
+
+}
+#nav li {
+  display: inline;
+  padding-left:10px;
+
+}
+#nav li a {
+  text-decoration: none;
+  color: white;
+
+}
+#nav li a:hover {
+  color: black;
+}
+
+#nav .button {
+  padding: 10px;
+
+
+}
+#nav .button:hover {
+  background-color: white;
+}
+
+.navbar-toggle {
+  border: 0px;
+  background-color: #0072c6;
+  border-radius: 5px;
+
+}
+.icon-bar {
+  padding:2px;
+}
+.button {
+  padding-top: 10px;
+
+}
+.button:hover {
+  opacity: 0.5;
+}
+.about {
+  clear: inherit;
+}
+.aboutMe h1 {
+  color: white;
+  font-family: Monospace;
+  font-size: 1.7em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  animation: type 3s steps(60, end); 
+  text-align: center;
+  letter-spacing: .2em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #4390df;
+}
+@keyframes type{ 
+  from { width: 0; auto} 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+h1:nth-child(2){
+  animation: type2 6.0s steps(60, end);
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+.blinker {
+  opacity: 1.0;
+  animation: blink 0.9s infinite;
+}
+.row {
+  margin: 20px;
+}
+.about {
+  background-image: url(https://static.pexels.com/photos/265620/pexels-photo-265620.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;  
+  padding-top: 110px;
+}
+  .mark {
+    background-color: #4390df;
+    color: white;
+  }
+.parallax {
+  background-color: white;
+  opacity: 0.8;
+  padding: 35px;
+  font-size: 1.3em;
+}
+  .img-circle {
+    horizontal-align: auto;
+    border: 10px solid rgba(255, 255, 255, .5);
+  }
+
+  .contact a {
+    color: #22637E;
+  }
+
+footer {
+    margin-top: 20px;
+    background-color: #4390df;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
